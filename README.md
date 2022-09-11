@@ -143,18 +143,25 @@ python inference_video.py --labelmap_path label_map.pbtxt --model_path experimen
 ### Project overview
 This section should contain a brief description of the project and what we are trying to achieve. Why is object detection such an important component of self driving car systems?
 
-### Set up
-This section should contain a brief description of the steps to follow to run the code for this repository.
 
 ### Dataset
 #### Dataset analysis
-This section should contain a quantitative and qualitative description of the dataset. It should include images, charts and other visualizations.
+In this part the goal is to understand the different properties from the waymo dataset. In this section we try to derive some useful features and parameters from the tensor flow files to better use data augmentation and spliting the data for training and evaluation.
+The data set has urban,highway and rural coverage. We try to derive some statistics about the type of object classes available in the data.
+
+
 #### Cross validation
 This section should detail the cross validation strategy and justify your approach.
 
 ### Training
 #### Reference experiment
 This section should detail the results of the reference experiment. It should includes training metrics and a detailed explanation of the algorithm's performances.
+
+vehicles constitute 77.75% of the objects and pedestrians are  21.65 % while cyclists are only 0.637%.
+
+The following are some of the images displayed. The objects are shown by the bounded boxes with various colors.
+Vehicles are colored Red, Pedestrians with blue and Cyclists with green.
+![image](https://user-images.githubusercontent.com/32779283/189553913-b21369c2-3e30-417f-8b09-acc37c33d9a0.png)
 
 #### Improve on the reference
 This section should highlight the different strategies you adopted to improve your model. It should contain relevant figures and details of your findings.
