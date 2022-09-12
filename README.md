@@ -214,13 +214,11 @@ The new learning rates used are:
 Base learning rate changes  from 0.04 to 0.00125
 warming up learning rate changes from 0.0133 to 0.000416
 
-![image](https://user-images.githubusercontent.com/32779283/189555283-d572c712-50ff-48d7-ad4e-cd1a6be45d5c.png)
+![image](https://user-images.githubusercontent.com/32779283/189555449-ec991294-d826-4be3-82d9-293d656cb0b1.png)
 
+![image](https://user-images.githubusercontent.com/32779283/189555459-ef05c3e8-c8d4-4dd0-8830-7fb7e1bd30cd.png)
 
-![image](https://user-images.githubusercontent.com/32779283/189555293-9a2b15d2-f0cd-4654-b002-386f326cc900.png)
-
-
-![image](https://user-images.githubusercontent.com/32779283/189555299-6c8ecf0b-332b-42c7-858d-abcf84e95864.png)
+![image](https://user-images.githubusercontent.com/32779283/189555462-0779839e-03f7-4774-a669-81f4bde66b2a.png)
 
 
 Observations:
@@ -229,7 +227,14 @@ Observations:
 - loss is close to 0.659
 
 here are some Gif examples from the training results
-video1.mp4
-video2.mp4
-video3.mp4
+
+
+https://user-images.githubusercontent.com/32779283/189555498-3677fbaa-61ce-42a0-90c8-1fa78935addc.mp4
+
+
+
+
+
+https://user-images.githubusercontent.com/32779283/189555513-ba73f254-0ed9-4b69-9b6b-4ae0b78ce13b.mp4
+
 
